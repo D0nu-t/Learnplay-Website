@@ -1,0 +1,115 @@
+.background {
+    background: linear-gradient(#e66465, #9198e5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .scrollText {
+    font-size: 1.5rem;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    height: 10rem;
+    width: 25%;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .parallax {
+    margin-right: 15%;
+  }
+  
+  .sticky {
+    margin-left: 15%;
+    background-color: #b5fcd4;
+  }
+  
+  .blue {
+    background-color: #d3d5de;
+    color: white;
+  }
+  
+  .purple {
+    background-color: #d8cae6;
+  }
+.button_s {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  @media (max-width: 750px) {
+    .card {
+      width: 40%;
+    }
+  
+    .parallax {
+      margin-right: 1.5rem;
+    }
+  
+    .sticky {
+      margin-left: 1.5rem;
+    }
+  }
+  .custom-dialog {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .custom-dialog-enter {
+    opacity: 0;
+  }
+  
+  .custom-dialog-enter-active {
+    opacity: 0.3;
+  }
+  
+  .custom-dialog-exit {
+    opacity: 1;
+  }
+  
+  .custom-dialog-exit-active {
+    opacity: 0;
+  }
+  .custom-dialog {
+    background-color: transparent;
+  }
+  
+  .custom-dialog-content {
+    background-color: transparent;
+  }
+
+  .card-enter {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  
+  .card-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms, transform 500ms;
+  }
+  
+  .card-exit {
+    opacity: 1;
+  }
+  
+  .card-exit-active {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+  
