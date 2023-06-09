@@ -1,9 +1,10 @@
-# Getting Started with Create React App
+# LearnPlay
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
+First go to the project directory
+### ```cd Learnplay-Website```
 In the project directory, you can run:
 ### `npm install`
 ### `npm start`
