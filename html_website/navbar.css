@@ -1,0 +1,31 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    display: inline-block;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar li a:hover {
+    background-color: #111;
+  }
+  
+  /* Style the active link */
+  .navbar li a.active {
+    background-color: #e43d3d;
+  }
+  
