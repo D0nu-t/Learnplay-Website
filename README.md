@@ -1,5 +1,8 @@
 # LearnPlay
 
+Download the HTMLWebsite folder and launch the website.html file
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
