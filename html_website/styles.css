@@ -5,8 +5,8 @@ body {
   }
   
   header {
-    background-color: #a2338c;
-    color: #fff;
+    background-color: #7d908f;;
+    color: #000000;
     padding: 20px;
     text-align: center;
   }
@@ -20,7 +20,7 @@ body {
   }
   
   .box {
-    background-color: #630b6d;
+    background-color: #d2efee;
     padding: 40px;
     text-align: center;
   }
@@ -66,9 +66,9 @@ body {
   }
   
   footer {
-    background-color: #a2338c;
+    background-color: #b2cccb;
     ;
-    color: #fff;
+    color: #000000;
     padding: 10px;
     text-align: center;
   }
@@ -83,8 +83,9 @@ body {
   .slides {
     width: 300%;
     height: 100%;
+    color: #000000;
     display: flex;
-    animation: slideAnimation 15s infinite; /* Adjust the duration as needed */
+    animation: slideAnimation 45s infinite; /* Adjust the duration as needed */
   }
   
   @keyframes slideAnimation {
@@ -111,21 +112,23 @@ body {
   
   .slide {
     width: 33.33%;
+    line-height: 1.6;
+    font-size: 20px;
     height: 100%;
   }
   
   .slide1 {
-    background-color: #FF4D6F;
+    background-color: #c2dddc;
     padding: 10px;
   }
   
   .slide2 {
-    background-color: #3DB7E4;
+    background-color: #a5bcbb;
     padding: 10px;
   }
   
   .slide3 {
-    background-color: #5AB67B;
+    background-color: rgb(147, 167, 167);
     padding: 10px;
   }
   
@@ -140,7 +143,7 @@ body {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: #999;
+    background-color: #b2cccb;
     display: inline-block;
     margin: 0 5px;
     cursor: pointer;
@@ -174,7 +177,7 @@ body {
   }
   
   button[type="submit"] {
-    background-color: #333;
+    background-color: #6b0f67;
     color: #fff;
     padding: 8px 16px;
     border: none;
@@ -183,15 +186,15 @@ body {
   }
   
   button[type="submit"]:hover {
-    background-color: #555;
+    background-color: #89778abd;
   }
 
   .floating-box {
     border: 1px solid #ccc;
     border-radius: 6px;
     padding: 20px;
-    background-color: #a2338c;
-    box-shadow: 0 20px 50px rgba(183, 20, 134, 0.842);
+    background-color: #b3d2d4;
+    
     float: right  ;
     margin-right: 20px;
   }
@@ -253,12 +256,12 @@ body {
   }
   .styled-link {
     text-decoration: none;
-    color: #891d86;
+    color: #d2efee;
     display: inline-block;
     padding: 5px;
     
-    background-color: #f2f2f2;
-    background-color: transparent;
+    background-color: #400940;
+    
     border-radius: 6px;
     transition: background-color 0.3s ease;
   }
@@ -270,7 +273,7 @@ body {
     flex: 1 0 300px;
     margin: 10px;
     padding: 10px;
-    background-color: #a828a089;
+    background-color: #d2efee;
   }
   .container {
     display: flex;
@@ -285,7 +288,7 @@ body {
   #navigation a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #f0f0f0;
+    background-color: #b2cccb;
     text-decoration: none;
     color: #333;
     margin-right: 10px;

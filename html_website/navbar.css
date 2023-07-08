@@ -1,31 +1,43 @@
 .navbar {
     list-style-type: none;
+    position: fixed; /* Set the navbar to fixed position */
+  top:0;
     margin: 0;
     padding: 0;
-    background-color: #333;
+    background-color: #7d908f;
     display: flex;
     justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100000;
   }
   
   .navbar li {
     display: inline-block;
+    text-align: center;
+    height: 75px
   }
   
   .navbar li a {
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px;
+    
+    justify-content: center;
     text-decoration: none;
     transition: background-color 0.3s;
   }
   
   .navbar li a:hover {
-    background-color: #111;
+    background-color: #9390e4;
+    height: 75px
   }
   
   /* Style the active link */
   .navbar li a.active {
-    background-color: #e43d3d;
+    background-color: #7d908f;
+    height: 75px;
+    font-weight: 900;
   }
   
