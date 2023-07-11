@@ -66,7 +66,7 @@ body {
   }
   
   footer {
-    background-color: #b2cccb;
+    background-color: #80b7b4;
     ;
     color: #000000;
     padding: 10px;
@@ -118,17 +118,17 @@ body {
   }
   
   .slide1 {
-    background-color: #c2dddc;
+    background-color: #b0dbda;
     padding: 10px;
   }
   
   .slide2 {
-    background-color: #a5bcbb;
+    background-color: #add3d1;
     padding: 10px;
   }
   
   .slide3 {
-    background-color: rgb(147, 167, 167);
+    background-color: #a3c9c7;
     padding: 10px;
   }
   
@@ -288,8 +288,9 @@ body {
   #navigation a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #b2cccb;
+    background-color: #80b7b4;
     text-decoration: none;
     color: #333;
     margin-right: 10px;
   }
+  
