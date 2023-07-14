@@ -11,7 +11,7 @@
     <a href="website.html"><img src="logo__1_-removebg-preview.png"  style="width: 110px; height: 70px;display: -webkit-box;
 
       margin-right: auto; z-index: 200001;
-position:relative; position: fixed; top:0; left: 0; background-color: #80b7b4; border-style: solid; border-width: 3px; border-color: #80b7b4;"></a>
+position:relative; position: fixed; top:0; left: 0; background-color: #ffffff; border-style: solid; border-width: 3px; border-color: #ffffff;"></a>
     
     <a href="#" class="styled-link" style="display: flex; margin-right: 15px; z-index: 200001;position:relative; position: fixed; top:1; right: 0;">School Login</a>
     
@@ -27,10 +27,26 @@ position:relative; position: fixed; top:0; left: 0; background-color: #80b7b4; b
       </ul>
     </nav>
   </header>
-  
-  <section>
-    <img src="spacer.png" alt="Image 1" style=" height: 95px; ; opacity: 0.000000000000000001;">
+  <img src="spacer.png" alt="Image 1" style=" height: 95px; ; opacity: 0.000000000000000001;">
 
+  <section id="section1" class="animation fade-in" style="width: 75%; margin: 0 auto; background-color:transparent">
+    <div class="box animation slide-up" style="background-color: #c2dddc; border-style: none; line-height: 40px; text-align: center; font-size: 40px; box-shadow: 0 2px 400px #98f1ef; padding: 20px;">
+      <h1 style="line-height: 45px; text-align: center; font-size: 40px; color: #ffffff; text-shadow: 0 2px 400px #ffffff; margin: 0;">Unlocking the Potential of </h1>
+      <h1 style="line-height: 45px; text-align: center; font-size: 40px; color: #ffffff; text-shadow: 0 2px 400px #bbd8d7; margin: 0;"></h1>
+      <h1 style="line-height: 45px; text-align: center; font-size: 40px; color: #ffffff; text-shadow: 0 2px 400px #bbd8d7; margin: 0;">Education with Hybrid Learning</h1>
+      <img src="download__1_-removebg-preview.png" alt="Hybrid Learning" style="width: 50%; display: block; margin: 20px auto; border-style: solid; border-width: 3px; border-color: #2a242400;">
+    </div>
+    <section>
+    <div class=" box">
+      <p style="font-size: 20px; color: #333333; margin-top: 10px;text-align: center;">In this digital age, traditional classroom-based learning is being augmented by technology, giving rise to a new and exciting approach known as hybrid learning.</p>
+      <p style="font-size: 20px; color: #333333; margin-bottom: 10px;text-align: center;">Delve into the concept of hybrid learning, its benefits, and how it is transforming education for the better.</p>
+    </div>
+  </section>
+    </section>
+  
+    
+  <section>
+    
     <div class="floating-box">
     <h2>Request a Demo</h2>
     <form action="send-email.php" method="POST" class="demo-form">
@@ -50,7 +66,58 @@ position:relative; position: fixed; top:0; left: 0; background-color: #80b7b4; b
     </form>
     </div>
   </section>
-  
+  <section id="statistics">
+    <div class="container">
+      <div class="tablet">
+        <div class="grid-container">
+          <div class="grid-item">
+            <h2><span id="countriesCount">0</span></h2>
+            <p>Schools</p>
+          </div>
+          <div class="grid-item">
+            <h2><span id="schoolsCount">0</span></h2>
+            <p>Students</p>
+          </div>
+          <div class="grid-item">
+            <h2><span id="studentsCount">0</span></h2>
+            <p>Admins</p>
+          </div>
+          <div class="grid-item">
+            <h2><span id="teachersCount">0</span></h2>
+            <p>Teachers</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    function animateValue(element, start, end, duration) {
+      let current = start;
+      const range = end - start;
+      const increment = end > start ? 1 : -1;
+      const stepTime = Math.abs(Math.floor(duration / range));
+      const timer = setInterval(() => {
+        current += increment;
+        element.textContent = current;
+        if (current === end) {
+          clearInterval(timer);
+        }
+      }, stepTime);
+    }
+
+    const countriesCount = document.getElementById('countriesCount');
+    const schoolsCount = document.getElementById('schoolsCount');
+    const studentsCount = document.getElementById('studentsCount');
+    const teachersCount = document.getElementById('teachersCount');
+
+    animateValue(countriesCount, 0, 10, 1000);
+    animateValue(schoolsCount, 0, 3000, 1000);
+    animateValue(studentsCount, 0, 1000, 1000);
+    animateValue(teachersCount, 0, 1000, 1000);
+  </script>
+  <img src="spacer.png" alt="Image 1" style="  opacity: 0.000000000000000001;">
+    
+    
     <div class="slider" style="border: 2px solid #d2efee;">
             
       <div class="slides">
@@ -73,35 +140,6 @@ position:relative; position: fixed; top:0; left: 0; background-color: #80b7b4; b
         </div>
       </div>
     </div>
-    <img src="spacer.png" alt="Image 1" style="  opacity: 0.000000000000000001;">
-    
-        
-    <section id="section1" class="animation fade-in" style="width:50%;margin-left: auto;
-    margin-right: auto;  ">
-      <div class="box animation slide-up" style="background-color: #c2dddc; border-style: none; line-height: 30px; text-align: left; font-size:20px;" >
-        <h2>Unlocking the Potential of Education with Hybrid Learning</h2>
-        <p>In this digital age, traditional classroom-based learning is being augmented by technology, giving rise to a new and exciting approach known as hybrid learning. </p>
-        <p>Delve into the concept of hybrid learning, its benefits, and how it is transforming education for the better.</p>
-      </div>
-    </section>
-    <img src="image (1).png" style="display: block;    margin-left: auto;    margin-right: auto;    width: 75%;">
-    <img src="spacer.png" alt="Image 1" style="  opacity: 0.000000000000000001;">
-    
-    <div class="slider" style="width: 50%;">
-      <h1 >Our Schools</h1>
-      <div class="slides">
-        <div class="slide slide1">
-          <img src="download-removebg-preview.png" style="height: 75%;width:75%;">
-        </div>
-        <div class="slide slide2">
-          <img src="download (1).jpg" style="height: 75%;width:75%;">
-        </div>
-        <div class="slide slide3">
-          <img src="download (2).jpg" style="height: 75%;width:75%;">
-        </div>
-      </div>
-    </div>
-    
     <img src="spacer.png" alt="Image 1" style="  opacity: 0.000000000000000001;">
     
     <section id="section2" class="animation fade-in">
@@ -156,6 +194,29 @@ position:relative; position: fixed; top:0; left: 0; background-color: #80b7b4; b
       </div>
     </div>
     </section>
+    
+    
+    <img src="image (1).png" style="display: block;    margin-left: auto;    margin-right: auto;    width: 75%;">
+    <img src="spacer.png" alt="Image 1" style="  opacity: 0.000000000000000001;">
+    
+    <div class="slider" style="width: 50%;">
+      <h1 >Our Schools</h1>
+      <div class="slides">
+        <div class="slide slide1">
+          <img src="download-removebg-preview.png" style="height: 75%;width:75%;">
+        </div>
+        <div class="slide slide2">
+          <img src="download (1).jpg" style="height: 75%;width:75%;">
+        </div>
+        <div class="slide slide3">
+          <img src="download (2).jpg" style="height: 75%;width:75%;">
+        </div>
+      </div>
+    </div>
+    
+    <img src="spacer.png" alt="Image 1" style="  opacity: 0.000000000000000001;">
+    
+    
     
     
     
